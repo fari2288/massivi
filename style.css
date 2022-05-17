@@ -1,0 +1,40 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 100px;
+    justify-content: center;
+    border: 1px solid silver;
+    border-radius: 10px;
+}
+.calculator {
+    width: 300px;
+    height: 300px;
+}
+.count {
+    background-color:rgb(209, 229, 222);
+    border-style: none;
+    border-radius: 5px;
+    height: 40px;
+    width: 100px;
+    margin-bottom: 20px;
+}
+.brand {
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid silver;
+    margin-bottom: 20px;
+    border: none;
+    background-color: rgb(209, 229, 222);
+}
+#new,
+#used {
+    border-style: none;
+}
+
+
