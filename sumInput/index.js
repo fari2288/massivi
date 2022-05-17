@@ -20,5 +20,5 @@ numbers.push(+value)
 let result=document.querySelector('.result')
 result.textContent=('сумма='+sum)
 let sort =document.querySelector('.sort')
-sort.textContent=(numbers.sort())
+sort.textContent=numbers.sort()
 }
