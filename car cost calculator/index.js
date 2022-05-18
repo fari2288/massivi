@@ -3,9 +3,9 @@ button.onclick = count
 
 
 function change() {
-    
     const models = document.querySelector('.models')
     const newElement = document.createElement('div')
+    models.innerHTML=''
     if (document.querySelector('.brand').value == '5000') {
         newElement.innerHTML = '<select name="" id="bmwmodels"><option value="10">X5</option><option value="20">X6</option><option value="30">3</option></select>'
         models.appendChild(newElement)
@@ -15,10 +15,8 @@ function change() {
         models.appendChild(newElement)
     }
     if (document.querySelector('.brand').value == '4000') {
-        
         newElement.innerHTML = '<select name="" id="audimodels"><option value="10">AudiTT</option><option value="20">7</option><option value="30">8</option></select>'
         models.appendChild(newElement)
-        
     }
     if (document.querySelector('.brand').value == '3000') {
         newElement.innerHTML = '<select name="" id="volkswagenmodels"><option value="10">Polo</option><option value="20">Passat</option><option value="30">Golf</option></select>'
